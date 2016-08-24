@@ -8,7 +8,8 @@ before_script:
 # Select operating system(s)
 os:
   - linux
-  - osx
+# JK: smalltalk sources cannot be accessed on MAC, dunno why 
+#  - osx
 
 # Select compatible Smalltalk image(s)
 smalltalk:
