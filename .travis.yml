@@ -1,16 +1,9 @@
 language: smalltalk
 sudo: false
 
-install: 
-  echo 'install part'
-
-before-install: 
-  echo 'before install'
-
 # Download sources
-before-script: 
-  - echo 'before script'
-# - ./loadSources.sh
+before_script: 
+  - ./.utilities/loadSources.sh
 
 # Select operating system(s)
 os:
